@@ -1,8 +1,3 @@
-# import qrcode as qr
-
-# img = qr.make('https://www.youtube.com/@wscubetech')
-
-# img.save('youtube.png')
 
 import streamlit as st
 import qrcode
@@ -45,3 +40,4 @@ if st.button("Generate QR Code"):
         file_name="qrcode.png",
         mime="image/png"
     )
+
